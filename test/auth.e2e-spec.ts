@@ -51,5 +51,6 @@ describe('Authentication System (e2e)', () => {
       .expect(HttpStatus.OK);
 
     expect(body.email).toEqual(email);
+
   });
 });
